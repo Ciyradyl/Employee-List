@@ -1,4 +1,4 @@
-** Employee List React App**
+**Employee List React App**
 
 **1. What is this project about?**
 

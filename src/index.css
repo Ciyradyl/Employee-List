@@ -25,7 +25,6 @@
 
 .single-user{
     display: flex;    
-    justify-content: center;
     align-items: center;
     background-color: darkkhaki;
     width: 400px;

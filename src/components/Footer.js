@@ -5,19 +5,19 @@ const Footer = () => {
         <h3>Employee List</h3>
       </ul>
       <ul className="footer-group-items">
-        <li>TEST</li>
-        <li>TEST</li>
-        <li>TEST</li>
+        <li>Home</li>
+        <li>About</li>
+        <li>Employees</li>
       </ul>
       <ul className="footer-group-items">
-        <li>TEST</li>
-        <li>TEST</li>
-        <li>TEST</li>
+        <li>Contact</li>
+        <li>Job Offers</li>
+        <li>Recruit</li>
       </ul>
       <ul className="footer-group-items">
-        <li>TEST</li>
-        <li>TEST</li>
-        <li>TEST</li>
+        <li>Twitter</li>
+        <li>Facebook</li>
+        <li>Youtube</li>
       </ul>
     </div>
   );

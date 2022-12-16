@@ -6,6 +6,8 @@
 
 - *This is just an exercise project that I tried to use randomuser.me api in order to get the random people's data and populate the screen thanks to that data. Normaly, I am using fetch in my projects, but this time I wanted to use axios to get used to that package too. Also this is project has 100% responsive design on computers.*
 
+- *Project also shows the details of the employee list when onclick event triggered.*
+
 **2. Used technologies are;**
 
 - *React,*

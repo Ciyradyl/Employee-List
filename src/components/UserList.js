@@ -4,8 +4,9 @@ import SingleUser from "./SingleUser";
 
 const UserList = () => {
   const [users, setUsers] = useState([]);
-  const [isShown, setIsShown] = useState(false);
   const [anUser, setAnUser] = useState([]);
+  const [isShown, setIsShown] = useState(false);
+
 
   const fetchUsers = async () => {
     const response = await axios.get("https://randomuser.me/api/?results=20");

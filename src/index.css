@@ -12,6 +12,7 @@
     justify-content: center;
     background-color: black;
     color: white;
+    opacity: 0.7;
 }
 
 .header-title {
@@ -38,7 +39,7 @@
 }
 
 .single-user:hover{
-    background-color: goldenrod;
+    animation: zoom .8s forwards;
 }
 
 .user-image{
@@ -99,12 +100,27 @@
 
 .footer{
     display: flex;
-    background-color: black;  
     align-items: center;
+    background-color: black;  
     color: white;
+    opacity: 0.7;
 }
 
 .footer-group-items{
     margin: .5rem;
     width: 100%;
+}
+
+/* Key Frames */
+
+@keyframes zoom {
+    from{
+        background-color: gray;
+        width: 400px;
+    }
+
+    to{
+        background-color: goldenrod;
+        width: 420px;
+    }
 }

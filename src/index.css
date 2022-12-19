@@ -11,10 +11,13 @@
     display: flex;
     justify-content: center;
     background-color: #111111;
-    border-bottom: 1px solid gray;
 }
 
 .nav-link{
+    color: white;
+}
+
+.nav-link:hover{
     color: white;
 }
 
@@ -116,7 +119,6 @@
     align-items: center;
     background-color: #111111;  
     color: white;
-    border-top: 1px solid gray;
 }
 
 .footer-group-items{

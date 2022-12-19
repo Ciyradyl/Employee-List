@@ -67,7 +67,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: goldenrod;
+    background: linear-gradient(180deg, gold, goldenrod);
     border-bottom: 1px solid gray;
 }
 
@@ -127,11 +127,6 @@
     }
 
     to{
-        background-color: goldenrod;
+        background: linear-gradient(180deg, gold, goldenrod);
     }
-}
-
-
-.test{
-    color: white;
 }

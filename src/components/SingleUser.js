@@ -1,7 +1,12 @@
-const SingleUser = ({user, setAnUser}) => {
+import React, {} from "react";
+
+const SingleUser = ({user, setAnUser, active, setActive}) => {
 
 
   const getName = () => {
+
+    setActive(user);
+
     setAnUser(
       [
         user.picture.large,
@@ -17,7 +22,7 @@ const SingleUser = ({user, setAnUser}) => {
   }
 
   return (
-    <div className="single-user" onClick={getName}>
+    <div className={`single-user ${active === user && "active"}`} onClick={getName}>
         <img className="user-image" src={user.picture.large} alt=""></img>
         <div className="user-info">
           <h5>{user.name.first} {user.name.last}</h5> 

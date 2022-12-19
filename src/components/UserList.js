@@ -6,7 +6,7 @@ const UserList = () => {
   const [users, setUsers] = useState([]);
   const [anUser, setAnUser] = useState([]);
   const [isShown, setIsShown] = useState(false);
-
+  const [active, setActive] = useState(null)
 
   const fetchUsers = async () => {
     const response = await axios.get("https://randomuser.me/api/?results=20");
@@ -46,11 +46,14 @@ const UserList = () => {
       )}
       <ul>
         {users.map((user, id) => (
-          <li onClick={handleClick}>
+          <li 
+          onClick={handleClick}>
             {" "}
             <SingleUser
               user={user}
               setAnUser={setAnUser}
+              active={active}
+              setActive={setActive}
               key={id}
             ></SingleUser>{" "}
           </li>

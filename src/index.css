@@ -42,7 +42,7 @@
 
 .single-user.active{
     transform: rotate3d(0,0,0, 0deg);
-    background-color: goldenrod;
+    animation: userFade 0s forwards;
 }
 
 .single-user:hover{

@@ -26,6 +26,7 @@ const UserList = () => {
   const handleClose = () => {
     if (isShown === true) {
       setIsShown((current) => !current);
+      setActive(null);
     }
   }
 

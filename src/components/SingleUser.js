@@ -16,7 +16,7 @@ const SingleUser = ({user, setAnUser, active, setActive}) => {
         user.email,
         user.location.country,
         user.location.city,
-        user.phone
+        user.phones
       ]
     )
   }

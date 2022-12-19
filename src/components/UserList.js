@@ -29,7 +29,6 @@ const UserList = () => {
     }
   }
 
-
   return (
     <div className="user-list">
       {isShown && (

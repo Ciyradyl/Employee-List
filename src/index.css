@@ -25,6 +25,7 @@
     display: flex;
     justify-content: center;
     margin: 0;
+    padding: .5rem;
     flex-wrap: wrap;
     background-color: darkgray;
 }
@@ -36,10 +37,12 @@
     width: 400px;
     margin: 1rem;
     border-radius: 1rem;
+    transform: rotate3d(1,-1,0, 20deg);
 }
 
 .single-user:hover{
-    animation: zoom .8s forwards;
+    animation: userFade .5s forwards;
+    transform: rotate3d(0,0,0, 0deg);
 }
 
 .user-image{
@@ -113,14 +116,12 @@
 
 /* Key Frames */
 
-@keyframes zoom {
+@keyframes userFade {
     from{
         background-color: gray;
-        width: 400px;
     }
 
     to{
         background-color: goldenrod;
-        width: 420px;
     }
 }

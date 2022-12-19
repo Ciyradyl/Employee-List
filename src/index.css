@@ -10,13 +10,12 @@
 .nav{
     display: flex;
     justify-content: center;
-    background-color: black;
-    color: white;
-    opacity: 0.7;
+    background-color: #111111;
+    border-bottom: 1px solid gray;
 }
 
-.header-title {
-    margin: .5rem;
+.nav-link{
+    color: white;
 }
 
 /* User List */
@@ -27,13 +26,14 @@
     margin: 0;
     padding: .5rem;
     flex-wrap: wrap;
-    background-color: darkgray;
+    background-color: #1F2937;
 }
 
 .single-user{
     display: flex;    
     align-items: center;
-    background-color: gray;
+    background-color: #374151;
+    color: white;
     width: 400px;
     margin: 1rem;
     border-radius: 1rem;
@@ -67,7 +67,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background: linear-gradient(180deg, gold, goldenrod);
+    background: linear-gradient(45deg, gold, goldenrod);
     border-bottom: 1px solid gray;
 }
 
@@ -92,8 +92,8 @@
 }
 
 .user-details-button{
-    background-color: darkgray;
-    color: black;
+    background-color: #374151;
+    color: white;
     height: fit-content;
     width: fit-content;
     margin: .5rem;
@@ -104,14 +104,19 @@
     right: 0;
 }
 
+.user-details-button:hover{
+    animation: userFade .5s forwards;
+    color: black;
+}
+
 /* Footer */
 
 .footer{
     display: flex;
     align-items: center;
-    background-color: black;  
+    background-color: #111111;  
     color: white;
-    opacity: 0.7;
+    border-top: 1px solid gray;
 }
 
 .footer-group-items{
@@ -123,10 +128,10 @@
 
 @keyframes userFade {
     from{
-        background-color: gray;
+        background-color: #374151;
     }
 
     to{
-        background: linear-gradient(180deg, gold, goldenrod);
+        background: linear-gradient(45deg, gold, goldenrod);
     }
 }

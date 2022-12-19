@@ -17,6 +17,10 @@ const UserList = () => {
     fetchUsers();
   }, []);
 
+  useEffect(() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, [active]);
+
   const handleClick = () => {
     if(isShown === false){
       setIsShown((current) => !current);

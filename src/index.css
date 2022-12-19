@@ -126,6 +126,19 @@
     width: 100%;
 }
 
+/* Copyright */
+
+.copyright-main{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+h6.copyright{
+    margin: .5rem;
+}
+    
 /* Key Frames */
 
 @keyframes userFade {

@@ -38,7 +38,7 @@ const UserList = () => {
     <div className="user-list">
       {isShown && (
         <div className="user-details">
-          <button onClick={handleClose} className="user-details-button">X</button>
+          <button onClick={handleClose} className="user-details-button">Close</button>
           <img className="user-details-image" src={anUser[0]} alt=""></img>
           <div className="user-details-info">
             <h3 className="user-details-title">{anUser[1]}({anUser[3]})</h3>

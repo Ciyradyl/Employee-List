@@ -21,6 +21,7 @@
 **3. Known Issues**
 
 - *Responsive design problem on mobile devices.*
+- *When click on list item, it gets the details of last item.*
 
 **4. How to start the project?**
 - *This is a React.js project, you also need Node.js to run his.*

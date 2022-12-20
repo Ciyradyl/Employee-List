@@ -5,8 +5,6 @@ const SingleUser = ({user, setAnUser, active, setActive}) => {
 
   const getName = () => {
 
-    setActive(user);
-
     setAnUser(
       [
         user.picture.large,
@@ -19,6 +17,8 @@ const SingleUser = ({user, setAnUser, active, setActive}) => {
         user.phone
       ]
     )
+
+    setActive(user);
   }
 
   return (
